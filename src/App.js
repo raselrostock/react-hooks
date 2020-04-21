@@ -1,12 +1,13 @@
 import React from 'react';
 
-import Home from './components/Home';
-
+import './Style.css';
+// import Home from './components/Home';
+import Todo from './components/Todo';
 class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Home />
+				<Todo />
 			</div>
 		);
 	}
